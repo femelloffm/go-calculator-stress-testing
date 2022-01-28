@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'io.gatling.gradle' version "3.7.4"
+}
+
+group 'org.femelloffm'
+version '1.0-SNAPSHOT'
+
+gatling {
+    logLevel = 'WARN'
+    logHttp = 'FAILURES'
+}
